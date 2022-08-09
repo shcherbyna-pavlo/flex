@@ -1,0 +1,52 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
+}
+
+.hea__logo {
+    padding: 35px 0px 30px 51px;
+    display: flex;
+
+    >a {
+        width: 130px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 653px;
+        font-size: 15px;
+        line-height: 20px;
+        padding-left: 51px;
+        // margin: 0 -10px;
+        
+        >li {
+            // width: calc(100% / 5);
+            padding-right: 55px;
+
+            a {
+                color: #000000;
+            }
+        }
+    }
+}
+
+.hea__btn {
+    padding: 0 51px 0 0;
+
+    &__list {
+        display: flex;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 45px;
+        margin: 0 -5px;
+
+        >li {
+            padding: 0 5px;
+        }
+    }
+
+}

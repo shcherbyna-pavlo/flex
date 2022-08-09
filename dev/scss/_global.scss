@@ -1,0 +1,31 @@
+body {
+    font-family: 'Graphik';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}

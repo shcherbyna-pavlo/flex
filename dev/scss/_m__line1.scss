@@ -1,0 +1,32 @@
+.m__line1 {
+    display: flex;
+    align-items: center;
+    max-width: 1582px;
+    margin: 0 auto;
+    padding: 136px 67px 172px 75px;
+
+    &__text {
+        max-width: 540px;
+
+        &__two {
+            max-width: 471px;
+            padding: 51px 0 48px 0;
+            font-size: 25px;
+            line-height: 35px;
+        }
+
+        span {
+            display: block;
+            font-size: 15px;
+            line-height: 25px;
+            padding-top: 25px;
+        }
+    }
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    letter-spacing: 1;
+}

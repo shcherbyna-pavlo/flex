@@ -5,9 +5,13 @@ body {
     line-height: 30px;
 }
 
+.container {
+    max-width: 1590px;
+    margin: 0 auto;
+    padding: 0 75px;
+}
+
 img {
-    width: 100%;
-    height: auto;
     vertical-align: top;
 }
 
@@ -25,7 +29,19 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 0;
+}
+
 ul {
     margin: 0;
     list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
 }

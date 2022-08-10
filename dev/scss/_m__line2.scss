@@ -1,21 +1,22 @@
 .m__line2 {
-    width: 100%;
+    max-width: 100%;
     background: #FF9C7D;
-    padding: 110px 0 0px;
+    padding: 110px 0 105px;
+    text-align: center;
 }
 
 h2 {
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
-    text-align: center;
 }
 
 .brand {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 80px;
+    align-items: center;
+    padding: 65px 15px 0;
     font-size: 53px;
     align-items: center;
 

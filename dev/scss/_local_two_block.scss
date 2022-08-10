@@ -1,0 +1,9 @@
+.local_two_block_list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .card__local {
+        width: calc(100% / 3);
+    }
+}

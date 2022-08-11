@@ -1,9 +1,33 @@
+.local_two {
+    padding: 154px 0 187px;
+}
+
 .local_two_block_list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    // margin-right: -31px;
+    align-content: center;
+    padding-top: 65px;
 
     .card__local {
+        display: flex;
+        flex-direction: column;
         width: calc(100% / 3);
+        padding-right: 31px;
+        
+        .card__local__photo {
+            // flex-basis: 200px;
+            // align-items: stretch;
+            align-content: center;
+            justify-content: center;
+            // justify-items: center;
+            flex-grow: 1;
+        }
+
+        .card__local__text {
+            padding-top: 50px;
+        }
+
     }
 }

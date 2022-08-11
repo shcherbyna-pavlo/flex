@@ -1,5 +1,5 @@
 .local_two {
-    padding: 154px 0 187px;
+    padding: 154px 0 220px;
 }
 
 .local_two_block_list {
@@ -17,16 +17,31 @@
         padding-right: 31px;
         
         .card__local__photo {
-            // flex-basis: 200px;
+            // display: flex;
+            // flex-basis: 250px;
             // align-items: stretch;
-            align-content: center;
-            justify-content: center;
+            // align-content: center;
+            // justify-content: center;
             // justify-items: center;
             flex-grow: 1;
+
+            img {
+                // align-items: center;
+            }
         }
 
         .card__local__text {
             padding-top: 50px;
+
+            h3 {
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 40px;
+            }
+
+            p {
+                padding: 33px 0 25px;
+            }
         }
 
     }

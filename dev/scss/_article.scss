@@ -1,0 +1,35 @@
+.article {
+    background: #C9E8F2;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    padding: 52px 0 105px;
+}
+
+.article__block {
+    display: flex;
+    justify-content: space-between;
+
+    &__text {
+        padding: 9px 0 0;
+    }
+}
+
+[class="icon-logo_l"] {
+    font-size: 25px;
+}
+
+figcaption {
+    font-size: 15px;
+    line-height: 25px;
+
+    span {
+        display: block;
+        padding-top: 7px;
+    }
+}
+
+blockquote {
+    margin: 0;
+    padding: 0 95px 23px 0;
+}

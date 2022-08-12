@@ -26,3 +26,18 @@
         line-height: 60px;
     }
 }
+
+
+.btn__groop {
+    padding: 0 51px 0 0;
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    margin: 0 -5px;
+
+        >li {
+            padding: 0 5px;
+        }
+    
+}

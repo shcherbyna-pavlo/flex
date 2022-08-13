@@ -5,10 +5,9 @@
     text-align: center;
 }
 
-h2 {
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 60px;
+.m__line2__block {
+    display: flex;
+    flex-direction: column;
 }
 
 .brand {

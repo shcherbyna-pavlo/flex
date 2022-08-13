@@ -7,7 +7,7 @@ body {
 
 .container {
     max-width: 1590px;
-    // margin: 0 auto;
+    margin: 0 auto;
     padding: 0 75px;
 }
 
@@ -48,12 +48,24 @@ h5 {
     margin: 0;
 }
 
+h1 {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+}
+
 blockquote {
     margin: 0;
 }
-
-.h2__2 {
-    font-weight: 600;
-    font-size: 65px;
-    line-height: 75px;
- }

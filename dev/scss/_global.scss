@@ -13,12 +13,17 @@ body {
 
 img {
     vertical-align: top;
+    width: 100%;
+    height: auto;
 }
 
 #wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
 }
 
 main {
@@ -26,7 +31,9 @@ main {
 }
 
 a {
+    color: #000;
     text-decoration: none;
+    transition: all .8s;
 }
 
 p {

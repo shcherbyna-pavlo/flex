@@ -1,30 +1,25 @@
-.local_two {
-    padding: 154px 0 220px;
+.local__two {
+    padding: 157px 0 188px;
 }
 
-.local_two_block_list {
+.local__two__block__list {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    // margin-right: -31px;
+    flex-wrap: wrap;
+    margin: 0 -15px;
     align-content: center;
-    padding-top: 65px;
+    padding-top: 75px;
 
     .card__local {
         display: flex;
         flex-direction: column;
         width: calc(100% / 3);
-        padding-right: 31px;
+        padding: 0 15px;
         
         .card__local__photo {
-            // display: flex;
-            // flex-basis: 250px;
-            // align-items: stretch;
-            // align-content: center;
-            // justify-content: center;
-            // justify-items: center;
-            flex-grow: 1;
-
+            height: 201px;
+            display: flex;
+            align-items: center;
         }
 
         .card__local__text {
@@ -39,6 +34,13 @@
                 padding: 33px 0 25px;
             }
         }
+    }
+}
 
+.local__two__block a{
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
     }
 }

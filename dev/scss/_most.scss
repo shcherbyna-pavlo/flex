@@ -1,7 +1,7 @@
 .most {
     max-width: 100%;
     background: #DABC98;
-    padding: 90px 0 84px;
+    padding: 81px 0 82px;
 }
 
 .most__block {
@@ -16,8 +16,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        // flex-grow: 1;
-        padding-right: 135px;
+        padding: 7px 125px 7px 0;
 
         h3 {
             font-size: 35px;
@@ -30,7 +29,8 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-
+        justify-items: end;
+        border-left: 1px solid #000;
 
         p {
             font-size: 15px;
@@ -42,16 +42,23 @@
 .brand__icon {
     display: flex;
     flex-direction: column;
-    // justify-items: center;
-    // align-items: center;
     align-content: center;
-    padding: 0 0 0 71px;
+    flex-grow: 2;
+    padding-left: 71px;
 
     >span {
         font-size: 36px;
     }
 }
 
+.ico {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0 14px;
+    margin: 0 -3px;
+}
+
 [class="icon-Vector_1"] {
     font-size: 19px;
+    padding: 0 3px;
 }

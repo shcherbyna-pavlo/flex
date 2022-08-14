@@ -8,10 +8,11 @@
 
 .article__block {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 
     &__text {
-        padding: 9px 0 0;
+        padding: 9px 1px 0;
     }
 }
 

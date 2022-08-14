@@ -1,9 +1,10 @@
 .m__line1 {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     max-width: 1582px;
     margin: 0 auto;
-    padding: 130px 67px 172px 75px;
+    padding: 130px 66px 172px 75px;
 
     &__text {
         max-width: 540px;

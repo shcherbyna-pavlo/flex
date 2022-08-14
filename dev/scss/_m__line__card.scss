@@ -33,5 +33,18 @@
 
     p {
         padding: 30px 0 30px;
+        
+        & a {
+            text-decoration: underline;
+    
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    & .link__start {
+        font-weight: 600;
+        text-decoration: none;
     }
 }

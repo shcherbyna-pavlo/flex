@@ -1,5 +1,5 @@
 .article {
-    background: #C9E8F2;
+    background: $article;
     font-size: 30px;
     line-height: 40px;
     letter-spacing: 0px;
@@ -16,17 +16,14 @@
     }
 }
 
-[class="icon-logo_l"] {
-    font-size: 25px;
-}
-
 figcaption {
     font-family: 'Roboto';
     font-size: 15px;
     line-height: 25px;
+    max-width: 275px;
 
-    span {
-        display: block;
+    a {
+        display: inline-block;
         padding-top: 7px;
     }
 }

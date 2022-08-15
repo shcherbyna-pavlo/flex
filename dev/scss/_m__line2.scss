@@ -1,14 +1,20 @@
 .m__line2 {
     max-width: 100%;
-    background: #FF9C7D;
+    background: $m__line2;
     padding: 110px 0 105px;
     text-align: center;
+    
+    &__block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        max-width: 720px;
+        margin: 0 auto;
+    }
 }
 
-.m__line2__block {
-    display: flex;
-    flex-direction: column;
-}
 
 .brand {
     display: flex;
@@ -19,19 +25,4 @@
     font-size: 53px;
     align-items: center;
 
-    span {
-        padding: 0 5px;
-    }
-}
-
-[class="icon-frame_3"] {
-    font-size: 21px;
-}
-
-[class="icon-frame_4"] {
-    font-size: 25px;
-}
-
-[class="icon-frame_6"] {
-    font-size: 19px;
 }

@@ -20,24 +20,24 @@
 
 .btn__org {
     color: #fff;
-    background: #FF6336;
+    background: $back__org;
     border: 1px solid #FF6336;
     
 
     &:hover {
         color: #000;
-        background: #fff;
+        background: $back__wht;
         border: 1px solid #000;
     }
 }
 
 .btn__wht {
-    background: #fff;
+    background: $back__wht;
     border: 1px solid #000;
 
     &:hover {
         color: #fff;
-        background: #FF6336;
+        background: $back__org;
         border: 1px solid #FF6336;
     }
 }
@@ -55,12 +55,12 @@
 .btn__black {
     color: #fff;
     font-size: 17px;
-    background: #000;
+    background: $back__black;
     border: 1px solid #000;
 
     &:hover {
         color: #000;
-        background: #fff;
+        background: $back__wht;
         border: 1px solid #000;
     }
 }
@@ -77,7 +77,7 @@
         top: 0;
         height: 100%;
         width: 0;
-        background: #FF6336;
+        background: $back__org;
         transition: all .8s;
     }
 
@@ -88,7 +88,7 @@
         top: 0;
         height: 100%;
         width: 100%;
-        background: #FF6336;
+        background: $back__org;
         z-index: 2;
         opacity: .5;
     }

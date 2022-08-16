@@ -39,6 +39,11 @@
         &__text {
             padding-top: 30px;
 
+            &>div {
+                max-width: 325px;
+                margin: 0 auto;
+            }
+
             p {
                 padding-top: 20px;
             }

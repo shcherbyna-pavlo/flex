@@ -1,13 +1,13 @@
 .m__line1 {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     max-width: 1582px;
     margin: 0 auto;
     padding: 130px 66px 172px 75px;
 
     &__text {
-        max-width: 540px;
+        max-width: 555px;
+        padding: 0 15px 0 0 ;
 
         &__two {
             max-width: 471px;
@@ -22,5 +22,6 @@
             line-height: 25px;
             padding-top: 25px;
         }
+    
     }
 }
